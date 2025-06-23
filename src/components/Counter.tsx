@@ -7,5 +7,5 @@ export default function Counter() {
         console.log("count updated", count);
     }, [count]);
 
-    return <button onClick={() => setCount(count + 1)}>Click me</button>;
+    return <button onClick={() => setCount(count + 1)}>Increment</button>;
 }

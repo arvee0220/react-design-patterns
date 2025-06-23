@@ -14,8 +14,8 @@ function App() {
             <Counter />
             <ControlledInput />
             <UncontrolledInput />
-            <TodoContainer />
-            <DataProvider render={(data) => (Array.isArray(data) ? <div>{data.join(", ")}</div> : <div>Loading...</div>)} />
+            {/* <TodoContainer /> */}
+            {/* <DataProvider render={(data) => (Array.isArray(data) ? <div>{data.join(", ")}</div> : <div>Loading...</div>)} /> */}
             <Tabs>
                 <Tab>Tab 1</Tab>
                 <Tab>Tab 2</Tab>
