@@ -41,3 +41,22 @@ export function withData<T, P extends { data: T }>(WrappedComponent: ComponentTy
         );
     };
 }
+
+/* 
+    Advantage
+    * reusability
+    * Decouple concerns
+    * Enhance components
+    * centralized logic
+    * code separation
+    * extend components
+    
+    Disadvantage
+    * Props conflict
+    * Wrapper Hell
+    * Hooks can replace
+    
+    example use cases
+    - Authentication
+    
+*/

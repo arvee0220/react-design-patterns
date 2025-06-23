@@ -1,4 +1,4 @@
-import { fetchUsers } from "./api/fetchUser";
+import { fetchUsers } from "./api/index";
 import Button from "./components/Button";
 import ControlledInput from "./components/ControlledInput";
 import Counter from "./components/Counter";
@@ -22,7 +22,7 @@ function App() {
             <Counter />
             <ControlledInput />
             <UncontrolledInput />
-            
+
             {/* Container Presenter Pattern */}
             {/* <TodoContainer /> */}
             {/* Render Props Pattern */}
@@ -36,7 +36,7 @@ function App() {
             </Tabs>
 
             {/* Higher Order Component */}
-            <EnhancedUserList fetchData={fetchUsers} />;
+            <EnhancedUserList fetchData={fetchUsers} />
         </>
     );
 }
